@@ -5,9 +5,7 @@
  * Return: 0
  */
 
-
 int main(void)
-
 {
 	int i;
 
@@ -19,6 +17,8 @@ int main(void)
 	/*{*/
 	/*      putchar(i);*/
 	/*}*/
+
 	printf("infinite loop avoided! \\0/\n");
+
 	return (0);
 }
