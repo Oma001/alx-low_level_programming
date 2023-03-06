@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include "main"
+#include "main.h"
 
 /**
- * _strchr - Entry point
+ * _strchr - Entry point 
  * @s: input
  * @c: input
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
 char *_strchr(char *s, char c)
 {
@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 	for (i = 0; s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
-			retrun(s + i);
+			return (s + i);
 	}
 
 	return (NULL);
