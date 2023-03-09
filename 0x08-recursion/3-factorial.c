@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * factroial - calculate the factorial of a number
+ * _factroial - calculate the factorial of a number
  * @n: the number to calculate the factorial
  *
  * Return: an integer
  */
-int factorial(int *n)
+int _factorial(int n)
 {
 	if (n < 0)
 		return (-1);
